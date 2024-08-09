@@ -143,6 +143,19 @@
 		"ext2": "-factory.bin",
 		"addons": ["readme.pdf"]
 	},
+	"MIR3G": {
+		"details": "Xiaomi Router 3G",
+		"type": "2",
+		"build": "1907",
+		"config": ".config_mir3g",
+		"image1": "openwrt-ramips-mt7621-xiaomi_mir3g-squashfs-sysupgrade.bin",
+		"image2": "openwrt-ramips-mt7621-xiaomi_mir3g-initramfs-kernel.bin",
+		"imagepath": "/ramips/mt7621/",
+		"mod": "Xiaomi-Router-3G",
+		"ext1": "-upgrade.bin",
+		"ext2": "-initramfs-kernel.bin",
+		"addons": ["readme.pdf", "readmerecovery.txt"]
+	},
 	"MR3020V3": {
 		"details": "TP-Link MR3020v3",
 		"type": "2",
